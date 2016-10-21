@@ -5,12 +5,20 @@
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
 body {
-	/* font-family: 'Abril Fatface', cursive; */
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Proza Libre', sans-serif;
 }
 h1 {
 	font-size: 2em;
 	font-weight: 700;
+	margin: 10px 0 14px 0;
+}
+section,
+div,
+form,
+input,
+select,
+textarea {
+	border-radius: 6px;
 }
 
 /*-------- Form Styles --------*/
@@ -27,14 +35,8 @@ section.container {
 	max-width: 500px;
 	background: #E3E6EC;
 	padding: 10px 20px;
-	border-radius: 6px;
-	margin: 0 auto;
-}
-.form h1 {
-	margin: 10px 0 14px 0;
 }
 .row {
-	clear: both;
 	margin: 10px 0;
 }
 .formGroup {
@@ -63,7 +65,6 @@ section.container {
 .formGroup textarea {
 	padding: 14px;
 	border: 1px solid #CCC;
-	border-radius: 6px;
 	box-shadow: none;
 	width: 100%;
 	font-size: 1em;
@@ -87,7 +88,6 @@ input[type="submit"] {
 	background: rgba(39, 208, 127, .5);
 	transition: all 0.5s ease;
 	border: none;
-	border-radius: 6px;
 	width: initial;
 }
 input[type="submit"]:hover {
@@ -100,6 +100,5 @@ input[type="submit"]:hover {
 .results {
 	max-width: 500px;
 	background: #C8DBB3;
-	border-radius: 6px;
-	padding: 10px 20px;
+	padding: 10px 20px 20px 20px;
 }
