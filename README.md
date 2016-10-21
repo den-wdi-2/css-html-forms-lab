@@ -26,11 +26,4 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 - On submit, the form should render the information from the form on the page
 
 
-- Use a CSS Reset file in addition to your style.css file to style the page
-- Use IDs and Classes to to select and style elements on the page
-- Style your text with the Google Fonts provided by your style guide
-- Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
-- Indent nested elements to increase your code's readability
-
-
 
