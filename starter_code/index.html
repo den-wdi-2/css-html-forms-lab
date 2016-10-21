@@ -103,35 +103,38 @@
 			results.className = 'container results';
 			main.appendChild(results);
 		};
+		/*
+		
+			Make a function that will create <section> element and append it to #main.
+			Give the new <section> classes of "container" and "results"
+			Put an <h1> inside it that says "A True Story:"
+			Don't append it until the form has been submitted.
+
+		*/
 
 
 		$("form").on("submit", function(event){
-		    event.preventDefault(); // Stops the form from submitting!
 
-	    	makeResults();
-		    
-			var name = $("#name").val(); 
-			$('.results').append( document.createTextNode( "Once upon a time there was a Developer named " + name + ". " ) );
+		    // Stop the form from submitting
+
+	    	// Append the new <section> created above.
+
+	    	/*
 			
-			var verb1 = $("#verb-1").val(); 
-			$('.results').append( document.createTextNode( name +" came to General Asssembly to " + verb1 + " the great mountain of programming knowledge. " ) );
+				For each value entered into a form input, add the input to the corresponding sentence, then append the text into the results section:
 
-			var missionStatement = $("#mission").val(); 
-			$('.results').append( document.createTextNode( "\"" + missionStatement + "\", " + name + " shouted. " ) );
+				"Once upon a time there was a Developer named NAME."
 
-			var sentiment = $("input[name=sentiment]:checked").val(); 
-			var noun1 = $("#noun-1").val();
-			$('.results').append( document.createTextNode( "Though " + sentiment +  ", " + name + " was able to overcome all obstacles with the power of their " + noun1 + ". " ) );
+				"NAME came to General Asssembly to VERB1 the great mountain of programming knowledge."
 
-			var adjective2 = [];
-			$('input[name="adjective-2"]:checked').each(function() {
-			   	adjective2.push(" " + this.value);
+				""MISSION", NAME shouted."
+	
+				"Though SENTIMENT, NAME was able to overcome all obstacles with the power of their NOUN."
 
-			});
-			var noun2 = $("#noun-2").val(); 
-			$('.results').append( document.createTextNode( "In the end, their success can be contributed entirely to their " + adjective2 + " " + noun2 + "." ) );
+				"In the end, their success can be contributed entirely to their " + ADJECTIVE2[list each one checked, comma-separated] + NOUN2."
 
-    	});
+	    	*/ 
+		    
 	</script>
 
 </body>
