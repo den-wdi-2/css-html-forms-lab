@@ -8,10 +8,9 @@
 
 ###Description
 
-A client has approached you to make an online madlib-style game for them. They've given you the basic HTML framework, as well as an empty CSS and JS file with pseudo-code instructions on how the game should work. 
+A client has approached you to make an online madlib-style game for them. They've given you the basic framework, with pseudo-code detailing how they want the CSS and JS to work.
 
 
-A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the [design file](starter_code/design_file.txt) for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
 
 
 <br>
