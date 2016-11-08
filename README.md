@@ -5,7 +5,7 @@
 
 ---
 
-
+ 
 ###Intro
 
 In a web development role, you might find yourself asked to perform multiple roles - such as implementation AND basic design of a web page. In cases like these, its important to be able to mock up simple interfaces that match current design standards - whether or not they're perfectly designed or not. 
