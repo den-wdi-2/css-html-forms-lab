@@ -31,8 +31,7 @@ A client has approached you to make an online madlib-style game for them. They'r
 
 They've given you the basic framework, with pseudo-code detailing how they want the CSS and JS to work - get this JS working, then make sure the page follows the basic CSS guidelines. The result should be a pretty standard looking form - no designer required!
 
-
-
+The design the client is asking for is loosely based on [Bootstrap's Form CSS](https://v4-alpha.getbootstrap.com/components/forms/). Feel Free to use this as a visual guide for "best practice". 
 
 <br>
 
@@ -41,9 +40,14 @@ They've given you the basic framework, with pseudo-code detailing how they want 
 
 ###Technical Requirements
 
-- Hook up the HTML form to the corresponding JS pseudo-code
-- Style the form elements according to the descriptions in the CSS file
+- Fill in the JS pseudo-code so that the form works
+- Style the form elements according to the descriptions in the CSS file so that it looks nice
 - On submit, the form should render the information from the form on the page
 
+<br>
 
+---
 
+###BONUS!
+
+Your client asked you for a pretty bare-bones form - can you make it better? What CSS or JS tricks can you add to it to make the form really pop? If you've already accomplished what the client has asked for, go ahead and copy the code you have into a second directory and experiment with some design tweaks. You can use [Google's Material Design guide](https://material.google.com/components/text-fields.html) as a reference point.
