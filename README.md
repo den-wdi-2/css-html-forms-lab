@@ -14,10 +14,12 @@ Even if you don't consider yourself "artistically inclined", its important to be
 
 For instance - 
 
-Bad/confusing/offputting:
+####Bad/confusing/offputting:
+
 ![bad](http://devblog.jasonhuck.com/assets/NextGenFormStyle/Firefox_3_nostyle.png)
 
-Good/understandable/pleasant:
+####Good/understandable/pleasant:
+
 ![good](http://www.formassembly.com/blog/wp-content/uploads/2015/05/best-web-forms.png)
 
 <br>
